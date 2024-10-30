@@ -37,7 +37,8 @@ header span {
     /* Стили для первой секции */
     width: 1440px;
     height: 100vh;
-    background-color: #FAFAFF;
+    background-color: #fafaff;
+    padding: 60px 0px;
 }
 
 .main-title {
@@ -46,21 +47,20 @@ header span {
     height: 38px;
     font-size: 48px
     padding: 60px 0 60px;
-    margin: bottom 20px;
+    margin-bottom: 20px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
     width: 799px;
     height: 22px;
-    font-weight:normal
     font-size: 18px
     padding: 60px 0 60px;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
     height: 508px;
     padding: 60px 0 60px;    
 }
@@ -72,6 +72,7 @@ header span {
     height: 883px;
     background-color: #FFFFFF;
     font-size: 16px;
+    padding: 100px 0;
 }
 
 select {
@@ -98,13 +99,15 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     height: 57px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -119,8 +122,11 @@ select {
         height: 36px;
         border-radius: 5px;
         border-color: #303030;
+        border-collapse: separate;
         opacity: 50%;
         padding-left: 12px;
+        font-size: 16px;
+        font-weight: normal;
 }
 
 .btn {
@@ -143,29 +149,35 @@ select {
 
 table {
     /* Стили для таблицы */
+    border: #303030;
     border-collapse: collapse;
-    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
-th, td {
+th{
+    padding: 12px 15px;
+}
+
+td {
     /* Стили для ячеек таблицы */
-    padding: 15px 12px;
+    padding: 12px 15px;
     text-align: left;
+    font-weight: normal;
 }
 
 footer {
     /* Стили для футера */
     background-color: #A3A7FF;
-    opacity:30%;
     height: 70px;
     padding: 26px 0;
-
+    font-size: 14px;
+    margin-top: 100px;
 }
 
 .footer-link {
     /* Стили для футера */
     height: 17px;
-    text-decoration: none;
     color: #2965F1;
-    opacity: none;
+    text-decoration: none;
 }
