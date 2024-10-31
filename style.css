@@ -52,9 +52,9 @@ header span {
 
 .main-text {
     /* Стили для текста в первой секции */
+    font-size: 18px
     width: 799px;
     height: 22px;
-    font-weight: bold;
     padding: 60px 0 60px;
 }
 
